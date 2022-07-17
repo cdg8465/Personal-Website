@@ -1,12 +1,14 @@
 import NavigationBar from "./NavigationBar";
 
-function HomePage() {
+function PortfolioPage() {
   return (
-    <div className="App">
-        <NavigationBar color="dark" light="false" dark="true" expand="md" container="fluid" fixed="top" isHomeActive="true" isAboutActive="false" isPortfolioActive="false" isContactActive="false" isResumeActive="false"/>
-        Home page
+    <div>
+        <NavigationBar color="dark" light="false" dark="true" expand="md" container="fluid" fixed="top" isHomeActive="false" isAboutActive="false" isPortfolioActive="true" isContactActive="false" isResumeActive="false"/>
+        <div>
+            <h1>Portfolio Page</h1>
+        </div>
     </div>
   );
 }
 
-export default HomePage;
+export default PortfolioPage;
